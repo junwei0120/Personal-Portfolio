@@ -43,8 +43,8 @@ function About() {
           <div className="about-details">
             <div className="about-card">
               <h3>Education</h3>
-              <p>BSc (Hons) Software Engineering</p>
-              <span>Asia Pacific University (2025–Present)</span>
+              <p>Bachelor of Science (Hons) in Software Engineering</p>
+              <span>Asia Pacific University (2026–Present)</span>
             </div>
 
             <div className="about-card">
