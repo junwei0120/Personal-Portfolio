@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
   // Store the current theme
@@ -26,6 +27,9 @@ function App() {
       
       {/* About Section */}
       <About />
+
+      {/* Skills Section */}
+      <Skills />
     </div>
   )
 }
