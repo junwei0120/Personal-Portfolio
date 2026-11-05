@@ -1,90 +1,56 @@
+# Personal Portfolio Website
 
-# Personal Developer Portfolio
+A personal developer portfolio built with **React.js** and **Vite** to showcase my background, technical skills, academic projects, internship experience, and contact information.
 
-A personal developer portfolio website built with React.js to showcase my technical skills, software development projects, education, and professional experience.
+🌐 **Live Website:** [https://personal-portfolio-junwei0120.vercel.app/](https://personal-portfolio-junwei0120.vercel.app/)
 
-The website is designed to provide an overview of my development journey, highlight my completed projects, and serve as a platform for connecting with potential employers and industry professionals.
+## Overview
 
----
+This portfolio serves as my personal online profile, providing an overview of my journey as a Software Engineering student and my interest in software development.
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Objectives](#objectives)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Projects Showcase](#projects-showcase)
-- [Deployment](#deployment)
-- [Future Improvements](#future-improvements)
-- [Contact](#contact)
-- [License](#license)
-
----
-
-## About the Project
-
-This portfolio website is developed as a personal project to demonstrate my knowledge and practical skills in frontend development and modern web technologies.
-
-It features a modern, dark-themed user interface with responsive layouts, providing visitors with an easy way to explore my background, technical skills, and software development projects.
-
-The website will be continuously updated as I gain new technical knowledge and complete additional projects.
-
-## Objectives
-
-- Build a professional online developer portfolio.
-- Practise React.js and component-based development.
-- Improve frontend development and responsive web design skills.
-- Showcase academic assignments and personal software projects.
-- Gain practical experience with Git, GitHub, and web deployment.
-- Establish an online professional presence for internship and career opportunities.
+The website is designed with a clean and responsive interface, allowing visitors and potential employers to explore my technical background and projects.
 
 ## Features
 
-- **Home:** Personal introduction and professional overview.
-- **About Me:** Educational background and development interests.
-- **Technical Skills:** Programming languages, frameworks, databases, and development tools.
-- **Projects Showcase:** Display completed academic and personal projects.
-- **Project Details:** Technologies used, project descriptions, and GitHub repository links.
-- **Resume:** Option to view or download my CV.
-- **Contact:** Links to professional networking platforms and email.
-- **Responsive Design:** Optimised layouts for desktop, tablet, and mobile devices.
-- **Dark Theme:** Modern dark-themed user interface.
+- **Responsive Design** – Adaptable layout for desktop, tablet, and mobile devices.
+- **Dark and Light Mode** – Switch between different visual themes.
+- **Navigation Bar** – Navigate smoothly between portfolio sections.
+- **Hero Section** – Introduction and links to my professional profiles.
+- **About Me** – Educational background and personal introduction.
+- **Technical Skills** – Overview of programming languages, frameworks, and technical knowledge.
+- **Projects Showcase** – Display of academic and personal software development projects.
+- **Internship Experience** – Overview of my practical industry experience.
+- **Contact Section** – Direct links to email, GitHub, and LinkedIn.
 
-## Technology Stack
+## Tech Stack
 
-| Category | Technologies |
+| Technology | Purpose |
 |---|---|
-| Frontend | React.js |
-| Development Tool | Vite |
-| Programming Language | JavaScript |
-| Styling | CSS3 |
-| Icons | Lucide React |
-| Version Control | Git |
-| Code Repository | GitHub |
-| Deployment | Vercel |
+| React.js | Frontend development |
+| Vite | Development server and build tool |
+| JavaScript (ES6+) | Application logic |
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive design |
+| Lucide React | Interface icons |
+| React Icons | Social media icons |
+| Git & GitHub | Version control and source code management |
+| Vercel | Website deployment and hosting |
 
 ## Project Structure
 
 ```text
-my-portfolio/
+personal-portfolio/
 │
 ├── public/
-│   ├── images/
-│   └── resume.pdf
 │
 ├── src/
-│   ├── assets/
-│   │
 │   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
 │   │   ├── About.jsx
 │   │   ├── Skills.jsx
 │   │   ├── Projects.jsx
+│   │   ├── Experience.jsx
 │   │   ├── Contact.jsx
 │   │   └── Footer.jsx
 │   │
@@ -102,106 +68,79 @@ my-portfolio/
 
 ## Getting Started
 
-Follow the instructions below to run the portfolio website locally.
+Follow these instructions to run the project locally.
 
-### Prerequisites
-
-Make sure the following tools are installed:
-
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [Git](https://git-scm.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-### Installation
-
-**1. Clone the repository**
+### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/junwei0120/personal-portfolio.git
 ```
 
-**2. Navigate to the project directory**
+### 2. Navigate to the Project Directory
 
 ```bash
-cd my-portfolio
+cd personal-portfolio
 ```
 
-**3. Install project dependencies**
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Running the Project
-
-Start the development server:
+### 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open the local development URL displayed in your terminal, usually:
+Open the local development URL provided in the terminal, usually:
 
 ```text
 http://localhost:5173/
 ```
 
-## Projects Showcase
+### 5. Build for Production
 
-The portfolio will feature selected academic and personal software development projects.
+To generate the production-ready files:
 
-| Project | Description | Technologies |
-|---|---|---|
-| PFDA Project | Programming Fundamentals and Data Analysis assignment | C++ |
-| Flutter Mobile Application | Mobile application development project | Flutter, Dart, Firebase |
-| APUMart System | E-commerce system development project | To be updated |
-| ML-Based Test Case Prioritization | Research project involving machine learning for software testing | To be updated |
+```bash
+npm run build
+```
 
-*Project descriptions, screenshots, and repository links will be updated as development progresses.*
+The generated files will be available in the `dist/` directory.
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
 
 ## Deployment
 
-The portfolio website will be deployed using **Vercel** with GitHub integration.
+This portfolio is deployed using **Vercel** and connected to my GitHub repository.
 
-Deployment workflow:
+The deployment workflow is automated:
 
-1. Push the source code to GitHub.
-2. Connect the GitHub repository to Vercel.
-3. Configure the build settings.
-4. Deploy the React application.
-5. Access the published website through the assigned Vercel URL.
+1. Make changes to the project locally.
+2. Test the changes using the Vite development server.
+3. Commit and push the changes to GitHub.
+4. Vercel automatically detects the new commit.
+5. Vercel builds and deploys the updated website.
 
-**Live Website:** Coming Soon
+**Live Website:** [Personal Portfolio](https://personal-portfolio-junwei0120.vercel.app/)
 
-**GitHub Repository:** Coming Soon
+## Author
 
-## Future Improvements
+**Jun Wei**
 
-- [ ] Complete responsive portfolio design.
-- [ ] Implement all website sections using React components.
-- [ ] Add project screenshots and live demonstrations.
-- [ ] Add downloadable resume functionality.
-- [ ] Implement smooth scrolling and animations.
-- [ ] Improve accessibility and SEO.
-- [ ] Deploy the website using Vercel.
-- [ ] Add a custom domain (optional).
-- [ ] Continuously update projects and technical skills.
+Software Engineering Student  
+Asia Pacific University of Technology and Innovation (APU)
 
-## Contact
-
-Feel free to connect with me through the following platforms.
-
-- **GitHub:** [https://github.com/junwei0120]
-- **LinkedIn:** [https://www.linkedin.com/in/lim-jun-wei-2b62bb2a5/]
-- **Email:** [limjunwei0120@gmail.com]
----
-
-## License
-
-This project is developed for personal portfolio and educational purposes.
+- **GitHub:** [junwei0120](https://github.com/junwei0120)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/lim-jun-wei-2b62bb2a5/)
+- **Email:** limjunwei0120@gmail.com
 
 ---
 
-**Developed by [LIM JUN WEI]**
-
+⭐ Thank you for visiting my personal portfolio repository!
