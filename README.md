@@ -192,10 +192,9 @@ Deployment workflow:
 
 Feel free to connect with me through the following platforms.
 
-- **GitHub:** [Your GitHub Profile](https://github.com/your-username)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-username/)
-- **Email:** your-email@example.com
-
+- **GitHub:** [https://github.com/junwei0120]
+- **LinkedIn:** [https://www.linkedin.com/in/lim-jun-wei-2b62bb2a5/]
+- **Email:** [limjunwei0120@gmail.com]
 ---
 
 ## License
